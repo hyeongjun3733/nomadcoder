@@ -2,6 +2,7 @@ let a = 221;
 //const는 변하지 않는 변수 값을 지정할 때, let은 변할 수 있는 변수 값을 지정할 때 
 let b = a - 5;
 let a = 4;
+
 console.log(b, a)
 
 const dayOfWeek = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
@@ -14,14 +15,14 @@ const nicoInfo = {
     name: "Nico",
     age: 33,
     gender: 'Male',
-    favMovies: ['Along the gods', 'LOTR', 'Oldboy']
+    favMovies: ['Along the gods', 'LOTR', 'Oldboy'],
     favFood: [
         {
             name: 'Kimchi',
             fatty: false
         }, 
         {
-            name: Cheese burger, 
+            name: 'Cheese burger', 
             fatty: true
         }
     ]
